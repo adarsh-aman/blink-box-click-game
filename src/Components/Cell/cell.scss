@@ -1,0 +1,17 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+.highlighted {
+  background-color: rgb(9, 255, 0);
+   animation: blinker 1s linear infinite;
+    
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
